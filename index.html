@@ -20,23 +20,26 @@
             <div class="row text-center instructions">Enter text then press Go!</div>
             <div class="row">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
+                    <input type="text" class="form-control searchText" placeholder="Search for...">
                     <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
-
+        <button class="btn btn-default go" type="button">Go!</button>
                         <button class="btn btn-default" type="button">
                             <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">
                                 <i class="fa fa-search"></i>
                             </a>
                         </button>
+                    </span>
                 </div>
             </div>
         </div>
+        <div class="row searchResults">
+            <ul class="list-unstyled">
+            </ul>
     </div>
     <!--JQuery-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!--Custom JS-->
-    <script type="text/javascript" src="js/script/js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
