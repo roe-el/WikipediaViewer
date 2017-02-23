@@ -16,18 +16,24 @@ $(document).ready(function() {
                         var url = "https://en.wikipedia.org/wiki/";
                         var title = result.title;
                         var snippet = result.snippet;
-                        $(".searchResults").append("<li><a  href='" 
+                        snippet = snippet.split('.');
+                        $(".searchResults").append("<div class='well set'><a  href='" 
                          + url 
                          + title
                          + "' target='_blank'><div class='heading'>" 
                          + title 
-                         + "</div><div class='snippet'" 
-                         + snippet 
-                         + "...</div></a></li>").fadeIn();
+                         + "</div><div class='snippet'>" 
+                         + snippet[0] 
+                         + "...</div></a></div").fadeIn();
                     })
 
                 })
             }
         });
     });
+$(".searchText").keydown(function(event){
+	if(event.keyCode==13){
+		$(".go").trigger('click');
+	}
+});
 });
