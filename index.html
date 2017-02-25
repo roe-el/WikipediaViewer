@@ -11,31 +11,33 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <!--Icons-->
     <script type="text/javascript" src="https://use.fontawesome.com/68892713fc.js"></script>
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-fluid ">
-        <div class="well">
+        <div class="well topwell">
             <div class="row text-center title"><strong>Free Code Camp Wikipedia Viewer</strong></div>
             <div class="row text-center instructions">Enter text then press Go! or just press the magnifying class icon for a random page.</div>
-            <div class="row">
+            <div class="row bigbar">
                 <div class="input-group">
                     <input type="text" class="form-control searchText" placeholder="Search for...">
                     <span class="input-group-btn">
         <button class="btn btn-default go" type="button">Go!</button>
-                        <button class="btn btn-default" type="button">
-                            <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">
+                       
+                        <button class="btn btn-default random" type="button">
+                           
                                 <i class="fa fa-search"></i>
-                            </a>
+                           
                         </button>
                     </span>
                 </div>
             </div>
         </div>
         <div class="row searchResults">
-            
+        </div>
     </div>
-</div>
     <!--JQuery-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!--Custom JS-->
