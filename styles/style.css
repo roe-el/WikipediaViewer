@@ -1,7 +1,35 @@
+ body{
+ 	margin:2% 5% 2% 5%;
+ 	font-family:'VT323', monospace;
+ 	color:black;
+ }
+ .topwell{
+ 	padding:8px 20px 16px 20px;
+ 	margin:0px 20px 8px 20px;
+ }
+ .bigbar{
+ 	margin:0px 8px 0px 8px;
+ }
  .set{
-	border-width: 1px;
-	border-color: black;
-	border-style: solid;
-	margin:0px 0px 4px 0px;
-	padding:4px;
+ 	margin-left: 3%;
+ 	margin-right: 3%;
+ 	margin-bottom:8px;
+	padding:0px 0px 0px 0px;
 }
+.set:hover{
+	box-shadow: 0 0 5px 1px #0090FF;
+}
+a:hover, a:link, a:active{
+	text-decoration: none;
+	color:black;
+}
+.heading, .snippet{
+	margin:1px 10px 1px 15px;
+}
+.title{
+	font-size: 25px;
+}
+.instructions{
+	font-size: 12px;
+}
+
