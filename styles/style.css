@@ -23,6 +23,9 @@ a:hover, a:link, a:active{
 	text-decoration: none;
 	color:black;
 }
+a{
+	color:black;
+}
 .heading, .snippet{
 	margin:1px 10px 1px 15px;
 }
@@ -32,4 +35,6 @@ a:hover, a:link, a:active{
 .instructions{
 	font-size: 12px;
 }
-
+.heading{
+	font-size:20px;
+}
